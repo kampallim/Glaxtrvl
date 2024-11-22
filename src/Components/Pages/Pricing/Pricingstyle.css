@@ -1,0 +1,37 @@
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 30px;
+    text-align: center;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    transition: 0.5s all;
+    border-radius: 4px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.card .Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
